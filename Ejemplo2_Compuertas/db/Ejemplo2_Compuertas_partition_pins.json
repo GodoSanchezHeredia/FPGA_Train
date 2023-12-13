@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "and_o",
+					"strict" : false
+				},
+				{
+					"name" : "or_o",
+					"strict" : false
+				},
+				{
+					"name" : "xor_o",
+					"strict" : false
+				},
+				{
+					"name" : "not_o",
+					"strict" : false
+				},
+				{
+					"name" : "nand_o",
+					"strict" : false
+				},
+				{
+					"name" : "nor_o",
+					"strict" : false
+				},
+				{
+					"name" : "xnor_o",
+					"strict" : false
+				},
+				{
+					"name" : "y1",
+					"strict" : false
+				},
+				{
+					"name" : "a_i",
+					"strict" : false
+				},
+				{
+					"name" : "b_i",
+					"strict" : false
+				},
+				{
+					"name" : "m_i",
+					"strict" : false
+				},
+				{
+					"name" : "n_i",
+					"strict" : false
+				},
+				{
+					"name" : "l_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

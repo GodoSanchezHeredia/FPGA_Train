@@ -1,0 +1,27 @@
+|Compuertas
+a_i => and_o.IN0
+a_i => or_o.IN0
+a_i => xor_o.IN0
+a_i => nand_o.IN0
+a_i => nor_o.IN0
+a_i => xnor_o.IN0
+a_i => not_o.DATAIN
+b_i => and_o.IN1
+b_i => or_o.IN1
+b_i => xor_o.IN1
+b_i => nand_o.IN1
+b_i => nor_o.IN1
+b_i => xnor_o.IN1
+and_o << and_o.DB_MAX_OUTPUT_PORT_TYPE
+or_o << or_o.DB_MAX_OUTPUT_PORT_TYPE
+xor_o << xor_o.DB_MAX_OUTPUT_PORT_TYPE
+not_o << a_i.DB_MAX_OUTPUT_PORT_TYPE
+nand_o << nand_o.DB_MAX_OUTPUT_PORT_TYPE
+nor_o << nor_o.DB_MAX_OUTPUT_PORT_TYPE
+xnor_o << xnor_o.DB_MAX_OUTPUT_PORT_TYPE
+m_i => y1.IN0
+n_i => y1.IN1
+l_i => y1.IN1
+y1 << y1.DB_MAX_OUTPUT_PORT_TYPE
+
+

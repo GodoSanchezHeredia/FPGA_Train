@@ -1,0 +1,6 @@
+
+--Ejemplo2 Compuertas Logicas
+
+ieee
+
+ieee.std_logic_1164.all;
