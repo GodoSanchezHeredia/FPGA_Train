@@ -1,0 +1,6 @@
+|AND0ecu
+a_i => x_o.IN0
+b_i => x_o.IN1
+x_o << x_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
